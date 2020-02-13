@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.movie {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
