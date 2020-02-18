@@ -6,7 +6,7 @@ import '../App.css';
 const Movie = (props) => {
     const handle=()=>{
     alert("Thank you for Watching")
-        
+    
     }
     return(
     <Card id={props.id} style={{ width: '18rem' }} >
@@ -19,7 +19,7 @@ const Movie = (props) => {
         style={{ color:'black'}}>
         {props.overview}
     </Card.Text>
-        <Button onClick={handle} variant="primary">Click Me </Button>
+        <Button onClick={handle} variant="primary">Click Me</Button>
     </Card.Body>
     </Card>     
     ) 
